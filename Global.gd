@@ -3,7 +3,7 @@ extends Node
 
 
 var score = 0
-signal changed
+signal score_changed
 var scores = {
 	0:0,
 	1:0,

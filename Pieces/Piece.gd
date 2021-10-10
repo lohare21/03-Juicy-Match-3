@@ -47,3 +47,26 @@ func die():
 	$Tween.start()
 	$Tween.interpolate_property(self, "roation_degrees", rotation_degrees, rotate_amount, fall_duration-0.25, Tween.TRANS_QUINT, Tween.EASE_IN)
 	$Tween.start()
+
+	if color == "Elephant":
+		get_node("/root/Game/Elephant").playing = true
+		
+	if color == "Monkey":
+		get_node("/root/Game/Monkey").playing = true
+
+	if color == "Snake":
+		get_node("/root/Game/Snake").playing = true
+		
+	if color == "Parrot":
+		get_node("/root/Game/Parrot").playing = true
+
+	if color == "Hippo":
+		get_node("/root/Game/Hippo").playing = true
+		
+	if color == "Giraffe":
+		get_node("/root/Game/Giraffe").playing = true
+	
+	
+
+
+	
